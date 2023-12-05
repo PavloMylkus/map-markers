@@ -11,7 +11,9 @@ const libraries: Libraries = ["places"];
 
 const mapContainerStyle = {
   width: "80vw",
-  height: "100vh",
+  height: "94vh",
+  borderRadius: "50px",
+  margin: "20px",
 };
 const center = {
   lat: 49.842957,

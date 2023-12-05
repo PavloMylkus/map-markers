@@ -3,7 +3,7 @@ import { useMapContext } from "store/map-context/MapContextProvider";
 export const MarkerInfo: React.FC<{}> = () => {
   const { allMarkers, removeAllMarkers } = useMapContext();
   return (
-    <div>
+    <div className="info-main-block-class">
       <h2>All Markers from Firebase</h2>
       <button onClick={removeAllMarkers}>Clear map</button>
       {allMarkers &&
